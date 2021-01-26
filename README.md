@@ -10,6 +10,7 @@ You can earn points by submitting solutions for any of the problems, so don't wo
 | Contestant | Problem 00| Problem 01| Problem 02| Problem 03| Problem 04|
 |-|-|-|-|-|-|
 | Jack Donofrio | N/A | N/A | N/A | N/A | N/A |
+| Jon Jazwinski | 1/1 | 2/2 | N/A | N/A | N/A |
 
 ## Problem 00
 Write a program that prints "My first submission!" to standard output.
