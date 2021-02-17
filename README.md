@@ -11,6 +11,7 @@ You can earn points by submitting solutions for any of the problems, so don't wo
 |-|-|-|-|-|-|
 | Jack Donofrio | N/A | N/A | N/A | N/A | N/A |
 | Jon Jazwinski | 1/1 | 2/2 | N/A | N/A | N/A |
+| Samir Rajani | 1/1 | 2/2 | 3/3 | 4/4 | 4/5 |
 
 ## Problem 00
 Write a program that prints "My first submission!" to standard output.
