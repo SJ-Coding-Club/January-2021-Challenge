@@ -44,3 +44,69 @@ Write a program that computes the roots of <b>x<sup>2</sup> + 16x + 52 = 0</b>.
   <summary>Hint 3</summary>
   https://imgur.com/pjyy2l6
 </details>
+
+# Solutions
+
+## problem00.py
+``` Python
+print("My first submission!")
+```
+
+## problem01.py
+Suitable:
+``` Python
+print("Hello, Jack!")
+```
+But this is better:
+``` Python
+name = "Jack"
+print(f"Hello, {name}!")
+```
+
+## problem02.py
+``` Python
+PI = 3.14159
+radius = 5
+height = 9
+volume = 1 / 3 * radius * radius * height * PI
+print(volume)
+```
+or
+``` Python
+import math
+radius = 5
+height = 9
+volume = 1 / 3 * pow(radius, 2) * height * math.pi
+print(f"volume = {volume}")
+```
+
+## problem03.py
+``` Python
+c = 40
+f = c * 9/5 + 32
+print(f"{c} degrees Celsius is {f} degrees Fahrenheit")
+```
+
+## problem04.py
+``` Python
+import math
+# x^2 + 16x + 52 = 0
+# a^2 + bx + c form
+a = 1
+b = 16
+c = 52
+root_1 = (-b + math.sqrt(b*b - 4*a*c)) / (2*a)
+root_2 = (-b - math.sqrt(b*b - 4*a*c)) / (2*a)
+print(root_1, root_2)
+```
+Alternatively
+``` Python
+import math
+a = 1
+b = 16
+c = 52
+discriminant = b*b - 4*a*c
+root_1 = (-b + math.sqrt(discriminant)) / (2*a)
+root_2 = (-b - math.sqrt(discriminant)) / (2*a)
+print(root_1,root_2)
+```
